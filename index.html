@@ -3,28 +3,7 @@
 <head>
   <title>EXO- welcome</title>
   <meta charset="utf-8">
-  <style>
-    #active {
-      color: red;
-    }
-    .saw {
-      color:gray;
-    }
-    a {
-      color:black;
-      text-decoration: none;
-    }
-    h1 {
-      font-size:45px;
-      text-align: center;
-    }
-    body{
-      background-color:#e5e4e4;
-    }
-    p{
-      color:#424242;
-    }
-  </style>
+  <link rel="stylesheet" href="indexstyle.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143060110-1"></script>
 <script>
@@ -37,29 +16,31 @@
 </head>
 <body>
   <h1><a href="index.html">EXO</a></h1>
-  <ol>
-    <li><a href="1.html" class="saw">Exo라는 그룹</a></li>
-    <li><a href="2.html" class="saw" id="active">멤버</a></li>
-    <li><a href="3.html">활동앨범</a></li>
-  </ol>
-  <!--
-  <h1><a href="index.html"><font color="red">EXO</font></a></h1>
-  <ol>
-    <li><a href="1.html"><font color="red">Exo라는 그룹</font></a></li>
-    <li><a href="2.html"><font color="red">멤버</font></a></li>
-    <li><a href="3.html"><font color="red">활동앨범</font></a></li>
-  </ol>
-  -->
-<br>
-  <p><iframe width="560" height="315"
-    src="https://www.youtube.com/embed/pSudEWBAYRE"
-     frameborder="0" allow="accelerometer; autoplay;
-     encrypted-media; gyroscope; picture-in-picture"
-     allowfullscreen></iframe></p>
-  <p>
-  EXO는 수호, 시우민, 레이, 백현, 첸, 찬열, 디오, 카이, 세훈으로 이루어진 SM엔터테인먼트 소속 9인조 아이돌 보이그룹이다. EXO라는 팀명은 태양계 밖의 외계행성을 뜻하는 'exoplanet'에서 모티브를 얻었으며 '미지의 세계에서 온 새로운 인간'이라는 의미를 담고 있다. 본래는 EXO-K 6명 EXO-M 6명으로 이루어진 12인조로 데뷔했으나 EXO-M의 중국인 멤버들이 연달아 탈퇴하면서 9인조가 됐다. EXO-K와 EXO-M은 EXO의 유닛이 아닌 별개의 그룹으로 EXO-K와 EXO-M이 모여 활동할 경우 EXO라 부른다.
-  캐치프레이즈는 "We are One! 안녕하세요 EXO입니다!" 엑소의 리더인 수호가 "We are"이라고 선창을 하면 다른 멤버들이 "One!"이라 외친다. 무대에 올라가기 전이나 화이팅을 외칠 만한 순간에는 "엑소! 사랑하자!"를 외친다.
-  '으르렁' 열풍이 불었던 2013년부터 현재까지 큰 인기를 누리고 있다. 초반에는 청소년층이 팬덤의 주를 이루었지만, 2015년 'CALL ME BABY', 'LOVE ME RIGHT'와 같은 대중적인 색깔의 음악과 더불어, 2018년부터 급격히 많아지는 멤버 개개인의 활동 덕분에 현재는 20대는 물론 30-40대 팬층도 눈에 띄일 정도로 많아졌다. 데뷔 초반부터 타깃으로 삼은 중국 등 아시아에서는 '으르렁' 때부터 인기가 상당히 많았으며, 북미와 유럽에서는 2015년 'CALL ME BABY'와 2016년 'Monster' 등으로 인기를 얻었다. 2017년 'Ko Ko Bop'의 안무 일부분을 사용하여 만든 일명 '코코밥 챌린지'가 전세계적으로 유명세를 타고 2018년 평창 올림픽에서 보여준 무대 덕분에 서양권에서도 점점 인기가 높아지고 있다. 중동에서는 아랍에미리트의 분수쇼 배경음악으로 엑소의 'Power'가 2018년경부터 약 1년동안 사용되면서 급격히 팬층이 두터워 지고 있다.</p>
+    <ol>
+      <li><a href="1.html">Exo라는 그룹</a></li>
+      <li><a href="2.html">멤버</a></li>
+      <li><a href="3.html">활동앨범</a></li>
+    </ol>
+    <!--
+    <h1><a href="index.html"><font color="red">EXO</font></a></h1>
+    <ol>
+      <li><a href="1.html"><font color="red">Exo라는 그룹</font></a></li>
+      <li><a href="2.html"><font color="red">멤버</font></a></li>
+      <li><a href="3.html"><font color="red">활동앨범</font></a></li>
+    </ol>
+    -->
+    <div id="article">
+      <p><iframe width="560" height="315"
+        src="https://www.youtube.com/embed/pSudEWBAYRE"
+         frameborder="0" allow="accelerometer; autoplay;
+         encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen></iframe></p>
+      <p>
+      EXO는 수호, 시우민, 레이, 백현, 첸, 찬열, 디오, 카이, 세훈으로 이루어진 SM엔터테인먼트 소속 9인조 아이돌 보이그룹이다. EXO라는 팀명은 태양계 밖의 외계행성을 뜻하는 'exoplanet'에서 모티브를 얻었으며 '미지의 세계에서 온 새로운 인간'이라는 의미를 담고 있다. 본래는 EXO-K 6명 EXO-M 6명으로 이루어진 12인조로 데뷔했으나 EXO-M의 중국인 멤버들이 연달아 탈퇴하면서 9인조가 됐다. EXO-K와 EXO-M은 EXO의 유닛이 아닌 별개의 그룹으로 EXO-K와 EXO-M이 모여 활동할 경우 EXO라 부른다.
+      캐치프레이즈는 "We are One! 안녕하세요 EXO입니다!" 엑소의 리더인 수호가 "We are"이라고 선창을 하면 다른 멤버들이 "One!"이라 외친다. 무대에 올라가기 전이나 화이팅을 외칠 만한 순간에는 "엑소! 사랑하자!"를 외친다.
+      '으르렁' 열풍이 불었던 2013년부터 현재까지 큰 인기를 누리고 있다. 초반에는 청소년층이 팬덤의 주를 이루었지만, 2015년 'CALL ME BABY', 'LOVE ME RIGHT'와 같은 대중적인 색깔의 음악과 더불어, 2018년부터 급격히 많아지는 멤버 개개인의 활동 덕분에 현재는 20대는 물론 30-40대 팬층도 눈에 띄일 정도로 많아졌다. 데뷔 초반부터 타깃으로 삼은 중국 등 아시아에서는 '으르렁' 때부터 인기가 상당히 많았으며, 북미와 유럽에서는 2015년 'CALL ME BABY'와 2016년 'Monster' 등으로 인기를 얻었다. 2017년 'Ko Ko Bop'의 안무 일부분을 사용하여 만든 일명 '코코밥 챌린지'가 전세계적으로 유명세를 타고 2018년 평창 올림픽에서 보여준 무대 덕분에 서양권에서도 점점 인기가 높아지고 있다. 중동에서는 아랍에미리트의 분수쇼 배경음악으로 엑소의 'Power'가 2018년경부터 약 1년동안 사용되면서 급격히 팬층이 두터워 지고 있다.</p>
+    </div>
+  </div>
   <p><!--Start of Tawk.to Script-->
   <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
